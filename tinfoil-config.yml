@@ -4,7 +4,7 @@ memory: 32768
 
 containers:
   - name: "automation"
-    image: "ghcr.io/get-pally/pally-automation-enclave@sha256:15767e1251abbee09a16af920f6b3bd353f40639aa158b90edc325fa51ef83ef"
+    image: "ghcr.io/get-pally/pally-automation-enclave@sha256:86fae1c863200828ce0c896f6551f525f69ee5535b746be1f8d085ba66221584"
     env:
       - PORT: "8080"
       - PALLY_TINFOIL_ATTESTATION_REQUIRED: "1"
